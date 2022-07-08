@@ -1,0 +1,42 @@
+.donutChart_container {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.donutChart_label {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: left;
+}
+
+.label_item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+}
+
+.label_color {
+  background-color: black;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+}
+
+.center_text {
+  font-size: 1.5em;
+}
+
+.center_text_lower {
+  font-size: 0.875em;
+  opacity: 0.45;
+  margin-top: 4px;
+}
+
+/* .label_name {
+  display: flex;
+  align-items: center;
+} */
